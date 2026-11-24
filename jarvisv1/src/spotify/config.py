@@ -1,0 +1,18 @@
+from dotenv import load_dotenv
+from os import environ
+
+load_dotenv()
+
+SPOTIFY_CLIENT_ID = environ.get("SPOTIFY_CLIENT_ID")
+SPOTIFY_CLIENT_SECRET = environ.get("SPOTIFY_CLIENT_SECRET")
+
+SPOTIFY_USER_ID = environ.get("SPOTIFY_USER_ID")
+
+SPOTIFY_AUTHORIZATION_CODE = environ.get("SPOTIFY_AUTHORIZATION_CODE")
+SPOTIFY_ACCESS_TOKEN = environ.get("SPOTIFY_ACCESS_TOKEN")
+SPOTIFY_REFRESH_TOKEN = environ.get("SPOTIFY_REFRESH_TOKEN")
+
+SPOTIFY_BASE_URL = "https://api.spotify.com/v1"
+
+SPOTIFY_PHONE_ID = ""
+SPOTIFY_COMPUTER_ID = ""
